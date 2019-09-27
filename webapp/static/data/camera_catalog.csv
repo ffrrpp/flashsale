@@ -1,0 +1,531 @@
+modelId,brand,model,search,minus,isDSLR,year
+0,canon,1Ds,1Ds,-2 -3 -ii -iii,1,2002
+1,canon,1Ds Mk II,1Ds Mk II|1Ds Mk 2|1Ds Mark II|1Ds Mark 2,,1,2004
+2,canon,1Ds Mk III,1Ds Mk III|1Ds Mk 3|1Ds Mark III|1Ds Mark 3,,1,2007
+3,canon,1D,1D,-2 -3 -4 -ii -iii -iv -X -C -iin,1,2001
+4,canon,1D Mk II,1D Mk II|1D Mk 2|1D Mark II|1D Mark 2,-N,1,2004
+5,canon,1D Mk II N,1D Mk II N|1D Mk 2 N|1D Mark II N|1D Mark 2 N,,1,2005
+6,canon,1D Mk III,1D Mk III|1D Mk 3|1D Mark III|1D Mark 3,,1,2007
+7,canon,1D Mk IV,1D Mk IV|1D Mk 4|1D Mark IV|1D Mark 4,,1,2009
+8,canon,1D X,1D X,-2 -ii,1,2012
+9,canon,1D C,1D C,,1,2012
+10,canon,1D X Mk II,1D X Mk II|1D X Mk 2|1D X Mark II|1D X Mark 2,,1,2016
+11,canon,5D,5D,-2 -3 -4 -ii -iii -iv,1,2005
+12,canon,5D Mk II,5D Mk II|5D Mk 2|5D Mark II|5D Mark 2,,1,2008
+13,canon,5D Mk III,5D Mk III|5D Mk 3|5D Mark III|5D Mark 3,,1,2012
+14,canon,5D Mk IV,5D Mk IV|5D Mk 4|5D Mark IV|5D Mark 4,,1,2016
+15,canon,5Ds,5Ds,-R,1,2015
+16,canon,5Ds R,5Ds R,,1,2015
+17,canon,6D,6D,-2 -ii,1,2012
+18,canon,6D Mk II,6D Mk II|6D Mk 2|6D Mark II|6D Mark 2,,1,2017
+19,canon,7D,7D,-2 -ii,1,2009
+20,canon,7D Mk II,7D Mk II|7D Mk 2|7D Mark II|7D Mark 2,,1,2014
+21,canon,D30,D30,,1,2000
+22,canon,D60,D60,,1,2002
+23,canon,10D,10D,,1,2003
+24,canon,20D,20D,,1,2004
+25,canon,20Da,20Da,,1,2005
+26,canon,30D,30D,,1,2006
+27,canon,40D,40D,,1,2007
+28,canon,50D,50D,,1,2008
+29,canon,60D,60D,,1,2010
+30,canon,60Da,60Da,,1,2012
+31,canon,70D,70D,,1,2013
+32,canon,77D,77D,,1,2017
+33,canon,80D,80D,,1,2016
+34,canon,90D,90D,,1,2019
+35,canon,300D Digital Rebel,300D,,1,2003
+36,canon,350D Rebel XT,350D|Rebel XT,-XTi,1,2005
+37,canon,400D Rebel XTi,400D|Rebel XTi,,1,2007
+38,canon,450D Rebel XSi,450D|Rebel XSi,,1,2008
+39,canon,500D Rebel T1i,500D|Rebel T1i,,1,2009
+40,canon,550D Rebel T2i,550D|Rebel T2i,,1,2010
+41,canon,600D Rebel T3i,600D|Rebel T3i,,1,2011
+42,canon,650D Rebel T4i,650D|Rebel T4i,,1,2012
+43,canon,700D Rebel T5i,700D|Rebel T5i,,1,2013
+44,canon,750D Rebel T6i,750D|Rebel T6i,,1,2015
+45,canon,760D Rebel T6s,760D|Rebel T6s,,1,2015
+46,canon,800D Rebel T7i,800D|Rebel T7i,,1,2017
+47,canon,1000D Rebel XS,1000D|Rebel XS,-XSi,1,2008
+48,canon,1100D Rebel T3,1100D|Rebel T3,-T3i,1,2011
+49,canon,1200D Rebel T5,1200D|Rebel T5,-T5i,1,2014
+50,canon,1300D Rebel T6,1300D|Rebel T6,-T6i -T6s,1,2016
+51,canon,2000D Rebel T7,2000D|Rebel T7,-T7i,1,2018
+52,canon,4000D Rebel T100,4000D|Rebel T100,,1,2018
+53,canon,100D Rebel SL1,100D|Rebel SL1,,1,2013
+54,canon,200D Rebel SL2,200D|Rebel SL2,,1,2017
+55,canon,250D Rebel SL3,250D|Rebel SL3,,1,2019
+56,canon,R,eos R,-5Ds -rebel -mark -mk,1,2018
+57,canon,RP,RP,,1,2019
+58,canon,M,eos M,-N2 -N3 -N5 -N6 -N50 -N10 -N100 -rebel -mark -mk,1,2012
+59,canon,M2,M2,,1,2013
+60,canon,M3,M3,,1,2015
+61,canon,M5,M5,,1,2016
+62,canon,M6,M6,,1,2017
+63,canon,M50,M50,,1,2018
+64,canon,M10,M10,,1,2015
+65,canon,M100,M100,,1,2017
+66,canon,IXUS 60,IXUS 60,,0,2006
+67,canon,IXUS 65,IXUS 65,,0,2006
+68,canon,IXUS 800 IS,IXUS 800 IS,,0,2006
+69,canon,IXUS 850 IS,IXUS 850 IS,,0,2006
+70,canon,IXUS 900 Ti,IXUS 900 Ti,,0,2006
+71,canon,IXUS 70,IXUS 70,,0,2007
+72,canon,IXUS 75,IXUS 75,,0,2007
+73,canon,IXUS 950 IS,IXUS 950 IS,,0,2007
+74,canon,IXUS 860 IS,IXUS 860 IS,,0,2007
+75,canon,IXUS 960 IS,IXUS 960 IS,,0,2007
+76,canon,IXUS 80 IS,IXUS 80 IS,,0,2008
+77,canon,IXUS 85 IS,IXUS 85 IS,,0,2008
+78,canon,IXUS 90 IS,IXUS 90 IS,,0,2008
+79,canon,IXUS 970 IS,IXUS 970 IS,,0,2008
+80,canon,IXUS 870 IS,IXUS 870 IS,,0,2008
+81,canon,IXUS 980 IS,IXUS 980 IS,,0,2008
+82,canon,IXUS 95 IS,IXUS 95 IS,,0,2009
+83,canon,IXUS 100 IS,IXUS 100 IS,,0,2009
+84,canon,IXUS 110 IS,IXUS 110 IS,,0,2009
+85,canon,IXUS 990 IS,IXUS 990 IS,,0,2009
+86,canon,IXUS 120 IS,IXUS 120 IS,,0,2009
+87,canon,IXUS 200 IS,IXUS 200 IS,,0,2009
+88,canon,IXUS 105,IXUS 105,,0,2010
+89,canon,IXUS 130,IXUS 130,,0,2010
+90,canon,IXUS 210,IXUS 210,,0,2010
+91,canon,IXUS 300 HS,IXUS 300 HS,,0,2010
+92,canon,IXUS 1000 HS,IXUS 1000 HS,,0,2010
+93,canon,IXUS 310 HS,IXUS 310 HS,,0,2011
+94,canon,IXUS 220 HS,IXUS 220 HS,,0,2011
+95,canon,IXUS 115 HS,IXUS 115 HS,,0,2011
+96,canon,IXUS 1100 HS,IXUS 1100 HS,,0,2011
+97,canon,IXUS 230 HS,IXUS 230 HS,,0,2011
+98,canon,IXUS 500 HS,IXUS 500 HS,,0,2012
+99,canon,IXUS 125 HS,IXUS 125 HS,,0,2012
+100,canon,IXUS 510 HS,IXUS 510 HS,,0,2012
+101,canon,IXUS 240 HS,IXUS 240 HS,,0,2012
+102,canon,IXUS 245 HS,IXUS 245 HS,,0,2012
+103,canon,IXUS 255 HS,IXUS 255 HS,,0,2013
+104,canon,IXUS 132,IXUS 132,,0,2013
+105,canon,IXUS 135,IXUS 135,,0,2013
+106,canon,IXUS 140,IXUS 140,,0,2013
+107,canon,IXUS 265 HS,IXUS 265 HS,,0,2014
+108,canon,IXUS 145,IXUS 145,,0,2014
+109,canon,IXUS 150,IXUS 150,,0,2014
+110,canon,IXUS 155,IXUS 155,,0,2014
+111,canon,IXUS 160,IXUS 160,,0,2015
+112,canon,IXUS 165,IXUS 165,,0,2015
+113,canon,IXUS 170,IXUS 170,,0,2015
+114,canon,IXUS 275 HS,IXUS 275 HS,,0,2015
+115,canon,IXUS 175,IXUS 175,,0,2016
+116,canon,IXUS 180,IXUS 180,,0,2016
+117,canon,IXUS 285 HS,IXUS 285 HS,,0,2016
+118,canon,IXUS 185,IXUS 185,,0,2017
+119,canon,IXUS 190,IXUS 190,,0,2017
+120,nikon,D3X,D3X,,1,2008
+121,nikon,D2Xs,D2Xs,,1,2006
+122,nikon,D2X,D2X,-s,1,2004
+123,nikon,D1X,D1X,,1,2001
+124,nikon,D1,D1,-X -H,1,1999
+125,nikon,D5,D5,,1,2016
+126,nikon,D4S,D4S,,1,2014
+127,nikon,D4,D4,-s,1,2012
+128,nikon,D3S,D3S,,1,2009
+129,nikon,D3,D3,-X -s,1,2007
+130,nikon,D2Hs,D2Hs,,1,2005
+131,nikon,D2H,D2H,-s,1,2003
+132,nikon,D1H,D1H,,1,2001
+133,nikon,D850,D850,,1,2017
+134,nikon,D810,D810,,1,2014
+135,nikon,D800,D800,,1,2012
+136,nikon,D700,D700,,1,2008
+137,nikon,D750,D750,,1,2014
+138,nikon,Df,Df,,1,2013
+139,nikon,D610,D610,,1,2013
+140,nikon,D600,D600,,1,2012
+141,nikon,D500,D500,,1,2016
+142,nikon,D300S,D300S,,1,2009
+143,nikon,D300,D300,-s,1,2007
+144,nikon,D200,D200,,1,2005
+145,nikon,D100,D100,,1,2002
+146,nikon,D7500,D7500,,1,2017
+147,nikon,D7200,D7200,,1,2015
+148,nikon,D7100,D7100,,1,2013
+149,nikon,D7000,D7000,,1,2010
+150,nikon,D90,D90,,1,2008
+151,nikon,D80,D80,,1,2006
+152,nikon,D70s,D70s,,1,2005
+153,nikon,D70,D70,-s,1,2004
+154,nikon,D5600,D5600,,1,2016
+155,nikon,D5500,D5500,,1,2015
+156,nikon,D5300,D5300,,1,2013
+157,nikon,D5200,D5200,,1,2012
+158,nikon,D5100,D5100,,1,2011
+159,nikon,D5000,D5000,,1,2009
+160,nikon,D60,D60,,1,2008
+161,nikon,D40X,D40X,,1,2007
+162,nikon,D50,D50,,1,2005
+163,nikon,D3500,D3500,,1,2018
+164,nikon,D3400,D3400,,1,2016
+165,nikon,D3300,D3300,,1,2014
+166,nikon,D3200,D3200,,1,2012
+167,nikon,D3100,D3100,,1,2010
+168,nikon,D3000,D3000,,1,2009
+169,nikon,D40,D40,-X,1,2006
+170,nikon,Coolpix A,Coolpix A,-10 -100 -300 -900 -1000,0,2013
+171,nikon,Coolpix A10,Coolpix A10,,0,2016
+172,nikon,Coolpix A100,Coolpix A100,,0,2016
+173,nikon,Coolpix A300,Coolpix A300,,0,2016
+174,nikon,Coolpix A900,Coolpix A900,,0,2016
+175,nikon,Coolpix A1000,Coolpix A1000,,0,2019
+176,nikon,Coolpix AW100,Coolpix AW100,,0,2011
+177,nikon,Coolpix AW110,Coolpix AW110,,0,2013
+178,nikon,Coolpix AW120,Coolpix AW120,,0,2014
+179,nikon,Coolpix AW130,Coolpix AW130,,0,2015
+180,nikon,Coolpix B500,Coolpix B500,,0,2016
+181,nikon,Coolpix B600,Coolpix B600,,0,2019
+182,nikon,Coolpix B700,Coolpix B700,,0,2016
+183,nikon,Coolpix L1,Coolpix L1,,0,2005
+184,nikon,Coolpix L2,Coolpix L2,,0,2006
+185,nikon,Coolpix L3,Coolpix L3,,0,2006
+186,nikon,Coolpix L4,Coolpix L4,,0,2006
+187,nikon,Coolpix L5,Coolpix L5,,0,2006
+188,nikon,Coolpix L6,Coolpix L6,,0,2006
+189,nikon,Coolpix L10,Coolpix L10,,0,2007
+190,nikon,Coolpix L11,Coolpix L11,,0,2007
+191,nikon,Coolpix L12,Coolpix L12,,0,2007
+192,nikon,Coolpix L14,Coolpix L14,,0,2007
+193,nikon,Coolpix L15,Coolpix L15,,0,2007
+194,nikon,Coolpix L16,Coolpix L16,,0,2008
+195,nikon,Coolpix L18,Coolpix L18,,0,2008
+196,nikon,Coolpix L19,Coolpix L19,,0,2009
+197,nikon,Coolpix L20,Coolpix L20,,0,2009
+198,nikon,Coolpix L21,Coolpix L21,,0,2010
+199,nikon,Coolpix L22,Coolpix L22,,0,2010
+200,nikon,Coolpix L23,Coolpix L23,,0,2011
+201,nikon,Coolpix L24,Coolpix L24,,0,2011
+202,nikon,Coolpix L25,Coolpix L25,,0,2011
+203,nikon,Coolpix L26,Coolpix L26,,0,2012
+204,nikon,Coolpix L27,Coolpix L27,,0,2012
+205,nikon,Coolpix L28,Coolpix L28,,0,2013
+206,nikon,Coolpix L29,Coolpix L29,,0,2014
+207,nikon,Coolpix L30,Coolpix L30,,0,2014
+208,nikon,Coolpix L100,Coolpix L100,,0,2009
+209,nikon,Coolpix L110,Coolpix L110,,0,2010
+210,nikon,Coolpix L120,Coolpix L120,,0,2011
+211,nikon,Coolpix L310,Coolpix L310,,0,2013
+212,nikon,Coolpix L320,Coolpix L320,,0,2013
+213,nikon,Coolpix L330,Coolpix L330,,0,2014
+214,nikon,Coolpix L610,Coolpix L610,,0,2012
+215,nikon,Coolpix L620,Coolpix L620,,0,2013
+216,nikon,Coolpix L810,Coolpix L810,,0,2012
+217,nikon,Coolpix L820,Coolpix L820,,0,2013
+218,nikon,Coolpix L830,Coolpix L830,,0,2014
+219,nikon,Coolpix L840,Coolpix L840,,0,2015
+220,nikon,Coolpix P1,Coolpix P1,,0,2005
+221,nikon,Coolpix P2,Coolpix P2,,0,2005
+222,nikon,Coolpix P3,Coolpix P3,,0,2006
+223,nikon,Coolpix P4,Coolpix P4,,0,2006
+224,nikon,Coolpix P50,Coolpix P50,,0,2007
+225,nikon,Coolpix P60,Coolpix P60,,0,2008
+226,nikon,Coolpix P80,Coolpix P80,,0,2008
+227,nikon,Coolpix P90,Coolpix P90,,0,2009
+228,nikon,Coolpix P100,Coolpix P100,,0,2010
+229,nikon,Coolpix P300,Coolpix P300,,0,2011
+230,nikon,Coolpix P310,Coolpix P310,,0,2012
+231,nikon,Coolpix P330,Coolpix P330,,0,2013
+232,nikon,Coolpix P340,Coolpix P340,,0,2014
+233,nikon,Coolpix P500,Coolpix P500,,0,2011
+234,nikon,Coolpix P510,Coolpix P510,,0,2012
+235,nikon,Coolpix P520,Coolpix P520,,0,2013
+236,nikon,Coolpix P530,Coolpix P530,,0,2014
+237,nikon,Coolpix P600,Coolpix P600,,0,2014
+238,nikon,Coolpix P610,Coolpix P610,,0,2015
+239,nikon,Coolpix P900,Coolpix P900,,0,2015
+240,nikon,Coolpix P1000,Coolpix P1000,,0,2018
+241,nikon,Coolpix P5000,Coolpix P5000,,0,2007
+242,nikon,Coolpix P5100,Coolpix P5100,,0,2007
+243,nikon,Coolpix P7000,Coolpix P7000,,0,2010
+244,nikon,Coolpix P7100,Coolpix P7100,,0,2011
+245,nikon,Coolpix P7700,Coolpix P7700,,0,2012
+246,nikon,Coolpix P7800,Coolpix P7800,,0,2013
+247,nikon,Coolpix S01,Coolpix S01,,0,2012
+248,nikon,Coolpix S02,Coolpix S02,,0,2013
+249,nikon,Coolpix S1,Coolpix S1,,0,2005
+250,nikon,Coolpix S2,Coolpix S2,,0,2005
+251,nikon,Coolpix S3,Coolpix S3,,0,2005
+252,nikon,Coolpix S4,Coolpix S4,,0,2005
+253,nikon,Coolpix S5,Coolpix S5,,0,2006
+254,nikon,Coolpix S6,Coolpix S6,,0,2006
+255,nikon,Coolpix S7,Coolpix S7,-c,0,2006
+256,nikon,Coolpix S7c,Coolpix S7c,,0,2006
+257,nikon,Coolpix S8,Coolpix S8,,0,2006
+258,nikon,Coolpix S9,Coolpix S9,,0,2006
+259,nikon,Coolpix S10,Coolpix S10,,0,2006
+260,nikon,Coolpix S30,Coolpix S30,,0,2012
+261,nikon,Coolpix S31,Coolpix S31,,0,2013
+262,nikon,Coolpix S32,Coolpix S32,,0,2014
+263,nikon,Coolpix S33,Coolpix S33,,0,2015
+264,nikon,Coolpix S50,Coolpix S50,-c,0,2007
+265,nikon,Coolpix S50c,Coolpix S50c,,0,2007
+266,nikon,Coolpix S51,Coolpix S51,-c,0,2007
+267,nikon,Coolpix S51c,Coolpix S51c,,0,2007
+268,nikon,Coolpix S52,Coolpix S52,-c,0,2008
+269,nikon,Coolpix S52c,Coolpix S52c,,0,2008
+270,nikon,Coolpix S60,Coolpix S60,,0,2008
+271,nikon,Coolpix S70,Coolpix S70,,0,2009
+272,nikon,Coolpix S80,Coolpix S80,,0,2010
+273,nikon,Coolpix S100,Coolpix S100,,0,2011
+274,nikon,Coolpix S200,Coolpix S200,,0,2007
+275,nikon,Coolpix S210,Coolpix S210,,0,2008
+276,nikon,Coolpix S220,Coolpix S220,,0,2009
+277,nikon,Coolpix S230,Coolpix S230,,0,2009
+278,nikon,Coolpix S500,Coolpix S500,,0,2007
+279,nikon,Coolpix S510,Coolpix S510,,0,2007
+280,nikon,Coolpix S520,Coolpix S520,,0,2008
+281,nikon,Coolpix S550,Coolpix S550,,0,2008
+282,nikon,Coolpix S560,Coolpix S560,,0,2008
+283,nikon,Coolpix S600,Coolpix S600,,0,2008
+284,nikon,Coolpix S610,Coolpix S610,-c,0,2008
+285,nikon,Coolpix S610c,Coolpix S610c,,0,2008
+286,nikon,Coolpix S620,Coolpix S620,,0,2009
+287,nikon,Coolpix S630,Coolpix S630,,0,2009
+288,nikon,Coolpix S640,Coolpix S640,,0,2009
+289,nikon,Coolpix S660,Coolpix S660,,0,2013
+290,nikon,Coolpix S700,Coolpix S700,,0,2007
+291,nikon,Coolpix S710,Coolpix S710,,0,2008
+292,nikon,Coolpix S800c,Coolpix S800c,,0,2012
+293,nikon,Coolpix S810c,Coolpix S810c,,0,2014
+294,nikon,Coolpix S1000pj,Coolpix S1000pj,,0,2009
+295,nikon,Coolpix S1100pj,Coolpix S1100pj,,0,2010
+296,nikon,Coolpix S1200pj,Coolpix S1200pj,,0,2011
+297,nikon,Coolpix S2600,Coolpix S2600,,0,2012
+298,nikon,Coolpix S2700,Coolpix S2700,,0,2013
+299,nikon,Coolpix S3000,Coolpix S3000,,0,2010
+300,nikon,Coolpix S3100,Coolpix S3100,,0,2011
+301,nikon,Coolpix S3300,Coolpix S3300,,0,2012
+302,nikon,Coolpix S3500,Coolpix S3500,,0,2013
+303,nikon,Coolpix S3600,Coolpix S3600,,0,2014
+304,nikon,Coolpix S4000,Coolpix S4000,,0,2010
+305,nikon,Coolpix S4100,Coolpix S4100,,0,2011
+306,nikon,Coolpix S4300,Coolpix S4300,,0,2012
+307,nikon,Coolpix S5100,Coolpix S5100,,0,2010
+308,nikon,Coolpix S5200,Coolpix S5200,,0,2013
+309,nikon,Coolpix S5300,Coolpix S5300,,0,2014
+310,nikon,Coolpix S6000,Coolpix S6000,,0,2010
+311,nikon,Coolpix S6100,Coolpix S6100,,0,2011
+312,nikon,Coolpix S6200,Coolpix S6200,,0,2011
+313,nikon,Coolpix S6300,Coolpix S6300,,0,2012
+314,nikon,Coolpix S6500,Coolpix S6500,,0,2013
+315,nikon,Coolpix S6800,Coolpix S6800,,0,2014
+316,nikon,Coolpix S6900,Coolpix S6900,,0,2015
+317,nikon,Coolpix S7000,Coolpix S7000,,0,2015
+318,nikon,Coolpix S8000,Coolpix S8000,,0,2010
+319,nikon,Coolpix S8100,Coolpix S8100,,0,2010
+320,nikon,Coolpix S8200,Coolpix S8200,,0,2011
+321,nikon,Coolpix S9100,Coolpix S9100,,0,2011
+322,nikon,Coolpix S9300,Coolpix S9300,,0,2012
+323,nikon,Coolpix S9500,Coolpix S9500,,0,2013
+324,nikon,Coolpix S9600,Coolpix S9600,,0,2014
+325,nikon,Coolpix S9700,Coolpix S9700,,0,2014
+326,nikon,Coolpix S9900,Coolpix S9900,,0,2015
+327,nikon,Coolpix W100,Coolpix W100,,0,2016
+328,nikon,Coolpix W150,Coolpix W150,,0,2019
+329,nikon,Coolpix W300,Coolpix W300,,0,2017
+330,sony,a900,a900,,1,2008
+331,sony,a850,a850,,1,2009
+332,sony,a99,a99,-ii,1,2012
+333,sony,a99 II,a99 II,,1,2016
+334,sony,a100,a100,,1,2006
+335,sony,a700,a700,,1,2007
+336,sony,a200,a200,,1,2008
+337,sony,a300,a300,,1,2008
+338,sony,a350,a350,,1,2008
+339,sony,a230,a230,,1,2009
+340,sony,a330,a330,,1,2009
+341,sony,a380,a380,,1,2009
+342,sony,a500,a500,,1,2009
+343,sony,a550,a550,,1,2009
+344,sony,a450,a450,,1,2010
+345,sony,a290,a290,,1,2010
+346,sony,a390,a390,,1,2010
+347,sony,a560,a560,,1,2010
+348,sony,a580,a580,,1,2010
+349,sony,a33,a33,,1,2010
+350,sony,a55,a55,,1,2010
+351,sony,a35,a35,,1,2011
+352,sony,a65,a65,,1,2011
+353,sony,a77,a77,-ii,1,2011
+354,sony,a57,a57,,1,2012
+355,sony,a37,a37,,1,2012
+356,sony,a58,a58,,1,2013
+357,sony,a77 II,a77 II,,1,2014
+358,sony,a68,a68,,1,2016
+359,sony,A6600,A6600,,1,2019
+360,sony,A6100,A6100,,1,2019
+361,sony,NEX-3,NEX-3,-N,1,2010
+362,sony,NEX-5,NEX-5,-N -R -T,1,2010
+363,sony,NEX-C3,NEX-C3,,1,2011
+364,sony,NEX-5N,NEX-5N,,1,2011
+365,sony,NEX-7,NEX-7,,1,2011
+366,sony,NEX-F3,NEX-F3,,1,2012
+367,sony,NEX-5R,NEX-5R,,1,2012
+368,sony,NEX-6,NEX-6,,1,2012
+369,sony,NEX-3N,NEX-3N,,1,2013
+370,sony,NEX-5T,NEX-5T,,1,2013
+371,sony,a3000,a3000,,1,2013
+372,sony,a7,a7,-R -S -II -III,1,2013
+373,sony,a7R,a7R,-ii -iii,1,2013
+374,sony,a5000,a5000,,1,2014
+375,sony,a6000,a6000,,1,2014
+376,sony,a3500,a3500,,1,2014
+377,sony,a7S,a7S,-ii -iii,1,2014
+378,sony,a5100,a5100,,1,2014
+379,sony,a7 II,a7 II,,1,2015
+380,sony,a7R II,a7R II,,1,2015
+381,sony,a7S II,a7S II,,1,2015
+382,sony,a6300,a6300,,1,2016
+383,sony,a6500,a6500,,1,2016
+384,sony,a9,a9,,1,2017
+385,sony,a7R III,a7R III,,1,2017
+386,sony,a7 III,a7 III,,1,2018
+387,sony,a6400,a6400,,1,2019
+388,sony,DSC H1,DSC H1,,0,2005
+389,sony,DSC H2,DSC H2,,0,2006
+390,sony,DSC H3,DSC H3,,0,2008
+391,sony,DSC H5,DSC H5,,0,2006
+392,sony,DSC H7,DSC H7,,0,2007
+393,sony,DSC H9,DSC H9,,0,2007
+394,sony,DSC H10,DSC H10,,0,2008
+395,sony,DSC H20,DSC H20,,0,2009
+396,sony,DSC H50,DSC H50,,0,2008
+397,sony,DSC H55,DSC H55,,0,2010
+398,sony,DSC H70,DSC H70,,0,2011
+399,sony,DSC H90,DSC H90,,0,2012
+400,sony,DSC H200,DSC H200,,0,2013
+401,sony,DSC H300,DSC H300,,0,2014
+402,sony,DSC H400,DSC H400,,0,2014
+403,sony,DSC HX1,DSC HX1,,0,2009
+404,sony,DSC HX5,DSC HX5,-V,0,2010
+405,sony,DSC HX5V,DSC HX5V,,0,2010
+406,sony,DSC HX7V,DSC HX7V,,0,2011
+407,sony,DSC HX9V,DSC HX9V,,0,2011
+408,sony,DSC HX10V,DSC HX10V,,0,2012
+409,sony,DSC HX20V,DSC HX20V,,0,2012
+410,sony,DSC HX30V,DSC HX30V,,0,2012
+411,sony,DSC HX50V,DSC HX50V,,0,2013
+412,sony,DSC HX60,DSC HX60,,0,2014
+413,sony,DSC HX80,DSC HX80,,0,2016
+414,sony,DSC HX90V,DSC HX90V,,0,2015
+415,sony,DSC HX99,DSC HX99,,0,2018
+416,sony,DSC HX100V,DSC HX100V,,0,2011
+417,sony,DSC HX200V,DSC HX200V,,0,2012
+418,sony,DSC HX300,DSC HX300,-V,0,2013
+419,sony,DSC HX300V,DSC HX300V,,0,2013
+420,sony,DSC HX400,DSC HX400,-V,0,2014
+421,sony,DSC HX400V,DSC HX400V,,0,2014
+422,sony,DSC QX10,DSC QX10,,0,2013
+423,sony,DSC QX30,DSC QX30,,0,2014
+424,sony,DSC QX100,DSC QX100,,0,2014
+425,sony,DSC RX100,DSC RX100,-II -III -IV -V -VI -M2 -M3 -M4 -M5 -M6,0,2012
+426,sony,DSC RX100 II,DSC RX100 II|DSC RX100 M2,,0,2013
+427,sony,DSC RX100 III,DSC RX100 III|DSC RX100 M3,,0,2014
+428,sony,DSC RX100 IV,DSC RX100 IV|DSC RX100 M4,,0,2015
+429,sony,DSC RX100 V,DSC RX100 V|DSC RX100 M5,,0,2016
+430,sony,DSC RX100 VI,DSC RX100 VI|DSC RX100 M6,,0,2018
+431,sony,DSC RX10,DSC RX10,-ii -iii -iv -M2 -M3 -M4,0,2013
+432,sony,DSC RX10 II,DSC RX10 II|DSC RX10 M2,,0,2015
+433,sony,DSC RX10 III,DSC RX10 III|DSC RX10 M3,,0,2016
+434,sony,DSC RX10 IV,DSC RX10 IV|DSC RX10 M4,,0,2017
+435,sony,DSC RX1,DSC RX1,-R -II,0,2012
+436,sony,DSC RX1R,DSC RX1R,-ii -M2,0,2012
+437,sony,DSC RX1R II,DSC RX1R II|DSC RX1R M2,,0,2015
+438,sony,DSC S500,DSC S500,,0,2006
+439,sony,DSC S600,DSC S600,,0,2006
+440,sony,DSC S650,DSC S650,,0,2007
+441,sony,DSC S700,DSC S700,,0,2007
+442,sony,DSC S730,DSC S730,,0,2008
+443,sony,DSC S750,DSC S750,,0,2008
+444,sony,DSC S780,DSC S780,,0,2008
+445,sony,DSC S800,DSC S800,,0,2007
+446,sony,DSC S930,DSC S930,,0,2009
+447,sony,DSC S950,DSC S950,,0,2009
+448,sony,DSC S980,DSC S980,,0,2009
+449,sony,DSC S2000,DSC S2000,,0,2010
+450,sony,DSC S2100,DSC S2100,,0,2010
+451,sony,DSC S3000,DSC S3000,,0,2011
+452,sony,DSC T20,DSC T20,,0,2007
+453,sony,DSC T30,DSC T30,,0,2006
+454,sony,DSC T33,DSC T33,,0,2005
+455,sony,DSC T50,DSC T50,,0,2006
+456,sony,DSC T70,DSC T70,,0,2007
+457,sony,DSC T75,DSC T75,,0,2007
+458,sony,DSC T77,DSC T77,,0,2008
+459,sony,DSC T90,DSC T90,,0,2009
+460,sony,DSC T99,DSC T99,,0,2010
+461,sony,DSC T100,DSC T100,,0,2007
+462,sony,DSC T110,DSC T110,,0,2011
+463,sony,DSC T200,DSC T200,,0,2007
+464,sony,DSC T300,DSC T300,,0,2008
+465,sony,DSC T500,DSC T500,,0,2008
+466,sony,DSC T700,DSC T700,,0,2008
+467,sony,DSC T900,DSC T900,,0,2009
+468,sony,DSC TF1,DSC TF1,,0,2013
+469,sony,DSC TX1,DSC TX1,,0,2009
+470,sony,DSC TX5,DSC TX5,,0,2010
+471,sony,DSC TX7,DSC TX7,,0,2010
+472,sony,DSC TX9,DSC TX9,,0,2010
+473,sony,DSC TX10,DSC TX10,,0,2011
+474,sony,DSC TX20,DSC TX20,,0,2012
+475,sony,DSC TX30,DSC TX30,,0,2013
+476,sony,DSC TX55,DSC TX55,,0,2011
+477,sony,DSC TX66,DSC TX66,,0,2012
+478,sony,DSC TX100V,DSC TX100V,,0,2011
+479,sony,DSC TX200V,DSC TX200V,,0,2012
+480,sony,DSC TX300V,DSC TX300V,,0,2012
+481,sony,DSC W210,DSC W210,,0,2009
+482,sony,DSC W220,DSC W220,,0,2009
+483,sony,DSC W230,DSC W230,,0,2009
+484,sony,DSC W270,DSC W270,,0,2009
+485,sony,DSC W290,DSC W290,,0,2009
+486,sony,DSC W310,DSC W310,,0,2010
+487,sony,DSC W320,DSC W320,,0,2010
+488,sony,DSC W330,DSC W330,,0,2010
+489,sony,DSC W350,DSC W350,,0,2010
+490,sony,DSC W360,DSC W360,,0,2010
+491,sony,DSC W370,DSC W370,,0,2010
+492,sony,DSC W380,DSC W380,,0,2010
+493,sony,DSC W390,DSC W390,,0,2010
+494,sony,DSC W510,DSC W510,,0,2011
+495,sony,DSC W520,DSC W520,,0,2011
+496,sony,DSC W530,DSC W530,,0,2011
+497,sony,DSC W550,DSC W550,,0,2011
+498,sony,DSC W560,DSC W560,,0,2011
+499,sony,DSC W570,DSC W570,,0,2011
+500,sony,DSC W580,DSC W580,,0,2011
+501,sony,DSC W610,DSC W610,,0,2012
+502,sony,DSC W620,DSC W620,,0,2012
+503,sony,DSC W630,DSC W630,,0,2012
+504,sony,DSC W650,DSC W650,,0,2012
+505,sony,DSC W670,DSC W670,,0,2012
+506,sony,DSC W690,DSC W690,,0,2012
+507,sony,DSC W710,DSC W710,,0,2013
+508,sony,DSC W730,DSC W730,,0,2013
+509,sony,DSC W800,DSC W800,,0,2014
+510,sony,DSC W810,DSC W810,,0,2014
+511,sony,DSC W830,DSC W830,,0,2014
+512,sony,DSC WX1,DSC WX1,,0,2009
+513,sony,DSC WX5,DSC WX5,,0,2010
+514,sony,DSC WX7,DSC WX7,,0,2011
+515,sony,DSC WX9,DSC WX9,,0,2011
+516,sony,DSC WX10,DSC WX10,,0,2011
+517,sony,DSC WX30,DSC WX30,,0,2011
+518,sony,DSC WX50,DSC WX50,,0,2012
+519,sony,DSC WX60,DSC WX60,,0,2013
+520,sony,DSC WX70,DSC WX70,,0,2012
+521,sony,DSC WX80,DSC WX80,,0,2013
+522,sony,DSC WX100,DSC WX100,,0,2012
+523,sony,DSC WX150,DSC WX150,,0,2012
+524,sony,DSC WX170,DSC WX170,,0,2012
+525,sony,DSC WX200,DSC WX200,,0,2013
+526,sony,DSC WX220,DSC WX220,,0,2014
+527,sony,DSC WX300,DSC WX300,,0,2013
+528,sony,DSC WX350,DSC WX350,,0,2014
+529,sony,DSC WX500,DSC WX500,,0,2015

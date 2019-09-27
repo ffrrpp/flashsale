@@ -45,54 +45,33 @@ https://getbootstrap.com/docs/3.3/getting-started/#examples
 
 <div class="container">
    <div class="starter-template">
-       <h2>Planning to sell your old camera on eBay?</h2>
+       <h2>Sell it how?</h2>
+       <h4>Real-time eBay selling suggestions for used cameras</h4>
    </div>
 
-   <div class = "container">
 
-     <form action="/webapp_output" method="GET">
-       <div class="form-group">
-         <label for="camera_model">Camera model: Canon</label>
-         <input type="text" id="cam_model" name='cam_model' placeholder="e.g. 70D">
-       </div>
-       <div>
-         <button type="submit" class="btn btn-default btn-lg">Buy it now or auction?</button>
-       </div>
-     </form>
-   </div>
-   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-   <script src="static/js/bootstrap.min.js"></script>
 
    <br><br><br>
 
-<h3>Canon {{fix_prices[0][0]}}</h3>
+<h3>Listing suggestion for {{cam_model}}:</h3>
 
  </div> <!-- /.container-->
 
     <div class="container">
-     <div class="starter-template">
-       <h3>Buy it now</h3>
-     </div>
-     <table class="table table-hover">
-     <tr><th>price ($)</th><th>{{fix_prices[0][1]|round(2)}}</th><th>{{fix_prices[0][2]|round(2)}}</th><th>{{fix_prices[0][3]|round(2)}}</th><th>{{fix_prices[0][4]|round(2)}}</th></tr>
-     <tr><td>expected listing duration (days)</td><td>{{fix_prices[0][5]|round(2)}}</td><td>{{fix_prices[0][6]|round(2)}}</td><td>{{fix_prices[0][7]|round(2)}}</td><td>{{fix_prices[0][8]|round(2)}}</td></tr>
-     </table>
+
+    {% if selling_option == 'auc' %}
+        <h2><p style="text-align:center">Auction</h2><br>
+        <div><p style = "font-size:18px;">If you start the listing right now ({{now_string}}), we recommend you sell your camera as a 3-day auction.<br>You can expect to sell your camera for <strong>${{price}}</strong>.</p></div>
+    {% else %}
+        <h2><p style="text-align:center">Fixed-price Listing</h2><br>
+        <div><p style = "font-size:18px;">If you start the listing right now ({{now_string}}), we recommend you sell your camera as a fixed-price listing.<br>
+        You can set the price up to <strong>${{price}}</strong> if you hope to sell it within 3 days.</p></div>
+    {% endif %}
     </div>   
 
-    <div class="container">
-     <div class="starter-template">
-       <h3>Auction</h3>
-     </div>
-     <table class="table table-hover">
-     <tr><th>listing duration (days)</th><th>3</th><th>5</th><th>7</th><th>10</th></tr>
-     <tr><td>expected final bid ($)</td><td>{{auc_prices[0][1]|round(2)}}</td><td>{{auc_prices[0][2]|round(2)}}</td><td>{{auc_prices[0][3]|round(2)}}</td><td>{{auc_prices[0][4]|round(2)}}</td></tr>
-     </table>
-    </div>
+   <br><br><br>
 
-
-
-
-
+    <a class="btn-lg" href="/" role="button"><p style="text-align:center">I have another camera to sell</a>
 
 
     <!-- Bootstrap core JavaScript
