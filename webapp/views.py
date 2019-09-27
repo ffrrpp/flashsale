@@ -52,7 +52,8 @@ def cam_price_output():
 	numFixListing = model_summary['numFixListing_median']
 	pricePercentile = 0.5
 	auc_median = model_summary['auc_median']
-	now = datetime.datetime.now()
+	# heroku server apparently 4 hours ahead of EDT
+	now = datetime.datetime.now() - datetime.timedelta(hours=4)
 	startDayInWeek = now.isoweekday()
 	startHourInDay = now.hour
 	now_string = now.strftime("%Y-%m-%d %H:%M")
