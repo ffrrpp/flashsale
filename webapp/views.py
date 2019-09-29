@@ -104,4 +104,4 @@ def cam_price_output():
 	            selling_option = 'fix'
 	            price = round(model_median*price)
 	            break
-	return render_template("webapp_output.html",cam_model=cam_model, now_string =now_string, selling_option=selling_option, price=price)
+	return render_template("webapp_output.html",cam_model=cam_model, now_string =now_string, numFixListing=numFixListing, selling_option=selling_option, price=price)
