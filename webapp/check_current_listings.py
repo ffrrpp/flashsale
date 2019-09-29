@@ -13,7 +13,7 @@ def check_current_listings(brand,model):
     minus = selected_model['minus']
     keywords = brand + ' (' + model_variants + ') ' + minus + ' -parts -repair -read'
 
-    api = finding(config_file='./webapp/static/ian.yaml')
+    api = finding(config_file='./webapp/static/ebayapi_key.yaml')
 
     api_request = {
         'keywords': keywords,
