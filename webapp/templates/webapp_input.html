@@ -64,7 +64,14 @@ https://getbootstrap.com/docs/3.3/getting-started/#examples
             {% endfor %}
           </datalist>
 
+          {% if error_message %}
+          <!-- <p stype="color:red">{{error_message}}</p> -->
+          <span style="white-space: nowrap;color:Tomato;">{{error_message}}</span>
+          {% endif %}
+
        </div>
+
+
        <div>
          <button type="submit" class="btn btn-default btn-lg">Sell it!</button>
        </div>

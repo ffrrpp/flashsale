@@ -7,11 +7,12 @@ May 2019, Donald Lee-Brown
 """
 
 from flask import render_template
+from flask import request
 from webapp import app
 from webapp.a_model import ModelIt
 import pandas as pd
 import numpy as np
-from flask import request
+from webapp.check_current_listings import check_current_listings
 import pickle
 import datetime
 import sklearn
@@ -37,20 +38,38 @@ def cam_price_input():
 def cam_price_output():
 	# pull 'cam_model' from input field and store it
 	cam_model = request.args.get('cam_model')
+	camera_catalog = pd.read_csv('./webapp/static/data/df_fix_summary.csv')
+	camera_list = (camera_catalog['brand'].apply(lambda x:x.capitalize())+' '+camera_catalog['model']).tolist()
+	err_message = "Camera model not supported. Please try again."
+	if len(cam_model.split(' ', 1)) != 2:
+		return render_template("webapp_input.html",camera_list=camera_list,error_message=err_message)
+
 	brand = cam_model.split(' ', 1)[0]
 	model = cam_model.split(' ', 1)[1]
-
 	df_fix_summary = pd.read_csv('./webapp/static/data/df_fix_summary.csv')
+	df_model = df_fix_summary[(df_fix_summary['brand']==brand.lower())&(df_fix_summary['model']==model)]
+
+	if df_model.empty:
+		return render_template("webapp_input.html",camera_list=camera_list,error_message=err_message)
+	model_summary = df_model.iloc[0]
 	model_summary = df_fix_summary[(df_fix_summary['brand']==brand.lower())&(df_fix_summary['model']==model)].iloc[0]
+
 
 	# random forest model
 	model_rf = pickle.load(open('./webapp/static/data/rf_fixedprice_binary_classification.pkl','rb'))
 	year = model_summary['year']
 	isDSLR = model_summary['isDSLR']
 	model_median = model_summary['model_median']
-	numAucListing = model_summary['numAucListing_median']
-	numFixListing = model_summary['numFixListing_median']
-	pricePercentile = 0.5
+	# numAucListing = model_summary['numAucListing_median']
+	# numFixListing = model_summary['numFixListing_median']
+	# pricePercentile = 0.5
+
+	df_realtime = check_current_listings(brand,model)
+
+	numAucListing=df_realtime[df_realtime['listingType']=='auction']['modelId'].count()
+	numFixListing=df_realtime[df_realtime['listingType']=='fixedprice']['modelId'].count()
+	fixedPrice_list=(df_realtime[df_realtime['listingType']=='fixedprice']['price']/model_median).tolist()
+	
 	auc_median = model_summary['auc_median']
 	# heroku server apparently 4 hours ahead of EDT
 	now = datetime.datetime.now() - datetime.timedelta(hours=4)
@@ -60,10 +79,11 @@ def cam_price_output():
 	freeShipping = True
 	returnsAccepted = True
 
-
+	price = auc_median
+	pricePercentile = sum(p<price for p in fixedPrice_list)/numFixListing
 	test_features = np.array([year,isDSLR,model_median,startDayInWeek,startHourInDay,
 	            numAucListing,numFixListing,pricePercentile,
-	            freeShipping,returnsAccepted,auc_median])
+	            freeShipping,returnsAccepted,price])
 
 	# make suggestion
 	if auc_median>=1.2 or not (np.argmax(model_rf.predict(test_features.reshape(1, -1)),axis=1)[0]):
@@ -72,9 +92,10 @@ def cam_price_output():
 	else:
 	    prices = 1.2+range(11)*(auc_median-1.2)/10
 	    for price in prices:
+	        pricePercentile = sum(p<price for p in fixedPrice_list)/numFixListing
 	        test_features = np.array([year,isDSLR,model_median,startDayInWeek,startHourInDay,
-	                    numAucListing,numFixListing,pricePercentile,
-	                    freeShipping,returnsAccepted,price])
+	        	numAucListing,numFixListing,pricePercentile,
+	        	freeShipping,returnsAccepted,price])
 	        if np.argmax(model_rf.predict(test_features.reshape(1, -1)),axis=1)[0]:
 	            selling_option = 'fix'
 	            price = round(model_median*price)
