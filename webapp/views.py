@@ -9,7 +9,6 @@ May 2019, Donald Lee-Brown
 from flask import render_template
 from flask import request
 from webapp import app
-from webapp.a_model import ModelIt
 import pandas as pd
 import numpy as np
 from webapp.check_current_listings import check_current_listings
