@@ -66,9 +66,14 @@ def cam_price_output():
 
 	df_realtime = check_current_listings(brand,model)
 
-	numAucListing=df_realtime[df_realtime['listingType']=='auction']['modelId'].count()
-	numFixListing=df_realtime[df_realtime['listingType']=='fixedprice']['modelId'].count()
-	fixedPrice_list=(df_realtime[df_realtime['listingType']=='fixedprice']['price']/model_median).tolist()
+	if df_realtime.empty:
+		numAucListing=0
+		numFixListing=0
+		fixedPrice_list=[]
+	else:
+		numAucListing=df_realtime[df_realtime['listingType']=='auction']['modelId'].count()
+		numFixListing=df_realtime[df_realtime['listingType']=='fixedprice']['modelId'].count()
+		fixedPrice_list=(df_realtime[df_realtime['listingType']=='fixedprice']['price']/model_median).tolist()
 	
 	auc_median = model_summary['auc_median']
 	# heroku server apparently 4 hours ahead of EDT
@@ -80,7 +85,7 @@ def cam_price_output():
 	returnsAccepted = True
 
 	price = auc_median
-	pricePercentile = sum(p<price for p in fixedPrice_list)/numFixListing
+	pricePercentile = sum(p<price for p in fixedPrice_list)/numFixListing if numFixListing>0 else 0.0
 	test_features = np.array([year,isDSLR,model_median,startDayInWeek,startHourInDay,
 	            numAucListing,numFixListing,pricePercentile,
 	            freeShipping,returnsAccepted,price])
@@ -92,7 +97,7 @@ def cam_price_output():
 	else:
 	    prices = 1.2+range(11)*(auc_median-1.2)/10
 	    for price in prices:
-	        pricePercentile = sum(p<price for p in fixedPrice_list)/numFixListing
+	        pricePercentile = sum(p<price for p in fixedPrice_list)/numFixListing if numFixListing>0 else 0.0
 	        test_features = np.array([year,isDSLR,model_median,startDayInWeek,startHourInDay,
 	        	numAucListing,numFixListing,pricePercentile,
 	        	freeShipping,returnsAccepted,price])
