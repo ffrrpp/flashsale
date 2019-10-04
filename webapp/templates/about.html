@@ -43,33 +43,27 @@ https://getbootstrap.com/docs/3.3/getting-started/#examples
 
   <!--here's the input container so you can query after output is served-->
 
-<div class="container" style="max-width:960px">
-   <div class="starter-template">
-       <h2>FlashSale</h2>
-       <h4>Real-time suggestion for selling used cameras on eBay</h4>
-   </div>
+  <div class="container" style="max-width:960px;">
+    <div class="starter-template" style="text-align:left;float:left;">
+       <h1>FlashSale</h1>
+       <h4 >Real-time suggestion for selling used cameras on eBay</h4>
+    </div>
+    <br>
+    <a style="float:right;font-size:24px;" class="btn-lg" href="/about" role="button">About</a>
+    <a style="float:right;font-size:24px;" class="btn-lg" href="/faqs" role="button">FAQs</a>
+  </div>
+  <br><br><br>
 
-   <br><br><br>
+  <div class = "container" style="max-width:960px">
+    <div style = "font-size:18px;">This web app was built by Ruopei Feng as an Insight data science fellow.<br>You can find more about me or this project in the links below.</div>
+    <a class="btn-lg" href="/" role="button"><p style="text-align:center">Return to homepage</a>
+  </div> 
+  <!-- /.container-->
 
-<h3>Listing suggestion for {{cam_model}}:</h3>
+  
 
- </div> <!-- /.container-->
 
-    <div class="container" style="max-width:960px">
 
-    {% if selling_option == 'auc' %}
-        <h2><p style="text-align:center">Auction</h2><br>
-        <div><p style = "font-size:18px;">As of right now ({{now_string}}), there are {{numFixListing}} listings of the same model.<br>The recommended listing type for your camera is <strong>3-day auction</strong>.<br>You can expect to sell your camera for <strong>${{price}}</strong>.</p></div>
-    {% else %}
-        <h2><p style="text-align:center">Fixed-price Listing</h2><br>
-        <div><p style = "font-size:18px;">As of right now ({{now_string}}), there are {{numFixListing}} listings of the same model.<br>The recommended listing type for your camera is <strong>fixed-price listing</strong>.<br>
-        You can set the price up to <strong>${{price}}</strong> if you hope to sell it within 3 days.</p></div>
-    {% endif %}
-    </div>   
-
-   <br><br><br>
-
-    <a class="btn-lg" href="/" role="button"><p style="text-align:center">I have another camera to sell</a>
 
 
     <!-- Bootstrap core JavaScript

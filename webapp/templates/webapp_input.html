@@ -15,7 +15,7 @@ https://getbootstrap.com/docs/3.3/getting-started/#examples
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="shortcut icon" href="../favicon.ico"/>
     <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/theme/">
 
     <title>FlashSale</title>
@@ -43,14 +43,20 @@ https://getbootstrap.com/docs/3.3/getting-started/#examples
 
   <!--here's the input container so you can query after output is served-->
 
-<div class="container">
-   <div class="starter-template">
-       <h2>FlashSale</h2>
-       <h4>Real-time eBay selling suggestions for used cameras</h4>
-       <br><br>
-   </div>
+  <div class="container" style="max-width:960px;">
+    <div class="starter-template" style="text-align:left;float:left;">
+       <h1>FlashSale</h1>
+       <h4 >Real-time suggestion for selling used cameras on eBay</h4>
+    </div>
+    <br>
+    <a style="float:right;font-size:24px;" class="btn-lg" href="/about" role="button">About</a>
+    <a style="float:right;font-size:24px;" class="btn-lg" href="/faqs" role="button">FAQs</a>
+  </div> 
+  <!-- /.container-->
 
-   <div class = "container">
+  <br><br><br>
+
+   <div class = "container" style="max-width:960px">
 
      <form action="/webapp_output" method="GET">
        <div class="form-group">

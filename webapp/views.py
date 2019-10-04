@@ -105,3 +105,13 @@ def cam_price_output():
 	            price = round(model_median*price)
 	            break
 	return render_template("webapp_output.html",cam_model=cam_model, now_string =now_string, numFixListing=numFixListing, selling_option=selling_option, price=price)
+
+# faqs
+@app.route('/faqs')
+def faqs():
+	return render_template("faqs.html")
+
+# about me
+@app.route('/about')
+def about():
+	return render_template("about.html")
