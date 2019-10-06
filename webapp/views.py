@@ -107,9 +107,9 @@ def cam_price_output():
 	return render_template("webapp_output.html",cam_model=cam_model, now_string =now_string, numFixListing=numFixListing, selling_option=selling_option, price=price)
 
 # faqs
-@app.route('/faqs')
-def faqs():
-	return render_template("faqs.html")
+@app.route('/faq')
+def faq():
+	return render_template("faq.html")
 
 # about me
 @app.route('/about')
